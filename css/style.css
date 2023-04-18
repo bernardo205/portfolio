@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --cor-primaria: #3E3145;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ; 
+}
