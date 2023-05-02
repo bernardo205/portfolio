@@ -20,8 +20,9 @@ header{
 .cartao{
     margin: auto ;
     width: auto;
-    background-color: #efefefef;
-    box-shadow: 3px 2px 2px;
+    margin: auto;
+    background-color: #fffff;
+    box-shadow: 3px 3px 10px;
     position: relative;
     bottom: -50px;
 }
