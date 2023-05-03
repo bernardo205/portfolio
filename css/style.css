@@ -8,55 +8,116 @@ body{
 header{
     text-align: center;
 }
-
-.cartoes{
-    margin-top: 50px;
-    background-color: #3E3145;
-    width: auto;
-    height: 150px;
+.logo{
+    height: 350px;
+    width: 350px;
+}
+.texto{
+    margin-top: 30px;
+}
+.card-container {
     display: flex;
     justify-content: space-between;
-}
-.cartao{
-    margin: auto ;
-    width: auto;
-    margin: auto;
-    background-color: #fffff;
-    box-shadow: 3px 3px 10px;
-    position: relative;
-    bottom: -50px;
+    background-color: #3E3145;
+    padding: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
-.projeto{
+.card {
+    flex-basis: calc(33.33% - 20px);
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: ghostwhite;
+    margin: 0 10px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.card p {
+    margin-top: 10px;
+} 
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}  
+.card p {
+    margin-top: 10px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+.title h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.container{
     margin-top: 200px;
     display: flex; 
     align-items: center;
     margin-bottom: 50px;
 }
-.img{
-    width:  auto;
-    height: auto;
-    max-width: 600px;
-    max-height: 600px;
-}
-.title_proj{
-    position: relative;
-    left: 100px;
-    top: -120px;
-}
-.txt{
-    position: relative;
-    left: 50px;
-    top: -20px;
-    max-width: 350px;
-    max-height: 350x;
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
 }
 
-
-footer{
-    color: #ffffff;
-    background-color: #3E3145;
-    max-width: auto;
-    height: 30px;
+.card {
+    display: flex;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: ghostwhite;
+    margin-bottom: 20px;
+}    
+.card img {
+    width: 50%;
+    max-width: 100%;
+    margin-right: 20px;    
 }
+.text {
+width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+}
+footer p {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}  
 
